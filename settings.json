@@ -1,0 +1,32 @@
+{
+  // optout
+  "telemetry.enableTelemetry": false,
+
+  // 有効な場合、ファイルを開くときに文字セット エンコードを推測します。言語ごとに構成することも可能です。
+  "files.autoGuessEncoding": true,
+
+  // Git 実行可能ファイルのパス
+  "git.path": "C:\\Program Files\\Git\\bin",
+  "window.zoomLevel": -1,
+  
+  // Page Option. Page size: A3, A4, A5, Legal, Letter, Tabloid
+  "markdown-pdf.format": "A3",
+  // Page Option. portrait or landscape
+  "markdown-pdf.orientation": "landscape",
+  "workbench.activityBar.visible": true,
+  "window.menuBarVisibility": "default",
+  "search.location": "panel",
+  "python.linting.enabled": false,
+
+  // for snippets
+  "editor.tabCompletion": true,
+
+  // rouler
+  "editor.rulers": [120],
+
+  // whitespace
+  "editor.renderWhitespace": "boundary",
+  "workbench.iconTheme": "vscode-icons",
+  "http.proxy": "http://localhost:8080",
+  "http.proxyStrictSSL": false
+}

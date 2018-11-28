@@ -27,6 +27,8 @@
   // whitespace
   "editor.renderWhitespace": "boundary",
   "workbench.iconTheme": "vscode-icons",
+
+  // proxy
   "http.proxy": "http://localhost:8080",
   "http.proxyStrictSSL": false
 }

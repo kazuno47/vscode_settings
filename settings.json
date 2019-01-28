@@ -10,13 +10,16 @@
   "window.zoomLevel": -1,
   
   // Page Option. Page size: A3, A4, A5, Legal, Letter, Tabloid
-  "markdown-pdf.format": "A3",
+  "markdown-pdf.format": "A4",
   // Page Option. portrait or landscape
   "markdown-pdf.orientation": "landscape",
   "workbench.activityBar.visible": true,
   "window.menuBarVisibility": "default",
   "search.location": "panel",
   "python.linting.enabled": false,
+
+  // for presentation(PDF)
+  "markdown-pdf.styles": ["hr-page-break.css"],
 
   // for snippets
   "editor.tabCompletion": true,
@@ -30,5 +33,6 @@
 
   // proxy
   "http.proxy": "http://localhost:8080",
-  "http.proxyStrictSSL": false
+  "http.proxyStrictSSL": false,
+  "git.autofetch": true
 }
